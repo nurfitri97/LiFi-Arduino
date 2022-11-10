@@ -9,3 +9,5 @@ Steps:
 3. Connect Arduino receiver with the photodiode, the DO pin is connected to D0 pin on Arduino Nano (it is written as RX0)
 After the codes have been uploaded, open serial monitor using this combination of keys `ctrl + shift + m` on both of the computers. 
 Set the Baud rate to be 9600, and on the transmitter computer you can start typing anything on serial monitor and press send, the Arduino Transmitter will translate it into binary and lid the LED correspond to the binary that it receive from  the computer. Meanwhile arduino receiver will read the Intensity of light that it received throught the photodiode and translate it again into binary and then into character before it sent the string of characters into the receiver computer.
+
+For more information, you can check this link : https://create.arduino.cc/projecthub/hamiran1997/li-fi-system-36ff5b
