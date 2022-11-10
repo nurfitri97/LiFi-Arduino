@@ -16,7 +16,7 @@ void loop()
   if (digitalRead(0) == LOW)
   {
     uint32_t startTime = millis();
-    for (int i = 0; i < 7 && (millis() - startTime < 8 * 5 * selangmasa); i++)
+    for (int i = 0; i < 7 && (millis() - startTime < 8 * 5 * selangmasa * 1000); i++)
     {
       while (digitalRead(0) == HIGH);
       delay(2 * selangmasa);
